@@ -1,0 +1,14 @@
+I used the stock firmware of the Wanhao Duplicator i3 (v2) printer for years. 
+This firmware lacks the thermal runaway protection so that was basically the main reason to upgrade the firmware.
+
+I choose the Marlin firmware, version 2.0.5.3 at the moment of writing and flashed a bootloader and after that upgraded the firmware. 
+There are plenty of tutorials on how to do this.
+
+This repo contains the two config files that contain the settings that work for me. Especially getting the LCD to work was kinda tricky, but it works now!
+If you stumble upon the issue that your LCD is messed up, add the following to configuration.h:
+#define ST7920_DELAY_2 DELAY_NS(400)
+
+And uncomment:
+#define LCD_FOR_MELZI
+
+This worked for me.
