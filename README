@@ -1,7 +1,7 @@
 I used the stock firmware of the Wanhao Duplicator i3 (v2) printer for years. 
 This firmware lacks the thermal runaway protection so that was basically the main reason to upgrade the firmware.
 
-I choose the Marlin firmware, version 2.0.5.3 at the moment of writing and flashed a bootloader and after that upgraded the firmware. 
+I choose the Marlin firmware, version 2.0.7.2 at the moment of writing and flashed a bootloader and after that upgraded the firmware. 
 There are plenty of tutorials on how to do this.
 
 This repo contains the two config files that contain the settings that work for me. Especially getting the LCD to work was kinda tricky, but it works now!
